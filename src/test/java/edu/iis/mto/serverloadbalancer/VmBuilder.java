@@ -5,7 +5,7 @@ public class VmBuilder implements Builder<Vm>{
 	private int size;
 
 	public VmBuilder ofSize(int size) {
-		this.size = size;
+		 this.size = size;
 		return this;
 	}
 
